@@ -15,7 +15,7 @@ body{
 }
 
 *{
-    background-color: #7fb3e3;
+    background-color:#d864e3;
 }
 .calendar-container {
     z-index: 1;
@@ -60,7 +60,7 @@ body{
   }
   
   th {
-    background-color: #f2f2f2;
+    background-color: #d864e3;
   }
   
   td {
