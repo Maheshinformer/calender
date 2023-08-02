@@ -10,7 +10,7 @@ body{
   padding: 0 10px;
   justify-content: center;
   min-height: 100vh;
-  background:#5ad5db;
+  background:#044b59;
   overflow: hidden;
 }
 
@@ -60,7 +60,7 @@ body{
   }
   
   th {
-    background-color: #5ad5db;
+    background-color: #044b59;
   }
   
   td {
