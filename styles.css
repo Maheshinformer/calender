@@ -10,12 +10,12 @@ body{
   padding: 0 10px;
   justify-content: center;
   min-height: 100vh;
-  background: #d285e6;
+  background: #c75cd1;
   overflow: hidden;
 }
 
 *{
-    background-color: #d285e6;
+    background-color: #c75cd1;
 }
 .calendar-container {
     z-index: 1;
@@ -220,8 +220,8 @@ body{
 	border-radius: 50%;
 	
     -webkit-box-shadow: 0 20px 30px rgba(213, 133, 230, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 20px 30px rgba(213, 133, 230, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0 20px 30px rgba(213, 133, 230, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
 	
     height: 200px;
 	position: absolute;
@@ -229,7 +229,7 @@ body{
 }
 
 .bubble:after {
-    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(213,133,230,0.5) 0%, rgba(213,133,230,0) 70%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
     background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
